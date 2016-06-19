@@ -1,0 +1,106 @@
+	form input {
+	margin-bottom: 5px;
+}
+
+.row {
+	margin: 15px;
+}
+
+.suggestion_item {
+    list-style: none;
+    /*border-style: solid;*/
+}
+
+.suggestion {
+    list-style: none;
+    display: none;
+    /*top:auto;*/
+    border: 1px solid;
+    background-color: #ccc;
+    padding: 0px;
+    margin: -5px 0 0 2px;
+    z-index: 1000;
+    position: absolute;
+    box-shadow: 1px 1px 1px black;
+}
+
+.suggestion_item:hover {
+    background-color: #000;
+    display: inherit;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container, .container-fluid {
+	background-color: #efa;
+	padding: 2% 10%;
+	border: #eae solid;
+	border-radius: 20px;
+	/*height: */
+}
+
+.submit {
+	float: right;
+}
+
+.guitar_detail {
+    background: #fff;
+    border-radius: 15px;
+    width: 40%;
+    margin-right: 10%;
+    margin-bottom: 4%;
+    padding-top: 2px;
+}
+
+.purchase_guitar {
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.panel {
+    margin: 15px auto;
+    width: 70%;
+}
+
+.panel-body {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.panel-body table {
+    font-size: 14px;
+    width: 70%;
+    margin-left: 30%;
+}
+
+.panel-heading h4 {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.view {
+        font-size: 16px;
+        margin-top: 5%;
+        cursor: pointer;
+        /*padding-top: 1px;*/
+    }
+
+
+.message {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: #3ad
+}
